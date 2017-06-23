@@ -1,0 +1,30 @@
+respawn = 3;
+respawndelay = 5;
+respawnButton = 1;
+disabledAI = true;
+
+enableDebugConsole = 1;
+allowFunctionsLog = 0;
+
+loadScreen="res\loadScreen.paa";
+onLoadMission = "jpec-arma.com";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer, Goon";
+onLoadName = Operation Point Blank;
+
+joinUnassigned = 1;
+
+#include "GREUH\UI\GREUH_interface.hpp"
+#include "ui\liberation_interface.hpp"
+#include "ui\liberation_notifications.hpp"
+#include "ui\mission_params.hpp"
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title =	$STR_SORRY;
+		subtitle = "";
+		description = $STR_COMMANDER_NOT_AUTHORIZED;
+		pictureBackground = "";
+	};
+};
