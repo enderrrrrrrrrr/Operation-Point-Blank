@@ -41,3 +41,5 @@ if (!isDedicated && hasInterface) then {
 if (KP_liberation_debug) then {private _text = format ["[KP LIBERATION] [DEBUG] init.sqf done for: %1", debug_source];_text remoteExec ["diag_log",2];};
 
 [] execVM "VCOMAI\init.sqf";
+
+//// some useless shit to test git
